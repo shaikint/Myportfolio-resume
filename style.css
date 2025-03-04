@@ -1,0 +1,138 @@
+body{
+    font-size: 15px;
+    line-height: 2em;
+    color: #333;
+    font-weight: 400;
+    background-color: white; 
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 15px;
+}
+.header{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+
+}
+.header .content .Bio{
+    bottom: 0;
+}
+
+.columns-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-col-block{
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+
+}
+
+.header .profile-image {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    bottom: 0px;
+    width:100%;
+    height:100vh;
+    z-index: -1;
+    background-image: url(../img/inthu.png);
+    background-size:cover;
+    background-position:top 30% center;
+    
+
+
+}
+.header .content{
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: -65%;
+    width: 100%;
+    margin:0 auto;
+    padding: 10%;
+}
+
+.header .content h1{
+    font-size: 36px;
+    color:white;
+    line-height: 1;
+    margin: 0;
+
+}
+
+.header .content p{
+    font-size: 20px;
+    color: white;
+    border: #333;
+
+}
+
+.header .content .quote{
+    font-family:Tangerine;
+}
+
+
+
+
+
+.right-col-block{
+    width: 50%;
+    position: absolute;
+     right: 0;
+    
+      
+}
+.row{
+    margin-left: -11px !important;
+    padding-top:15px
+}
+
+.section-wrapper{
+    padding: 50px;
+}
+
+.section-objective{
+    margin-bottom: 15px;
+}
+
+.section-objective h3{
+    color: rgb(100, 98, 98);
+    left: 14px;
+}
+.gray-bg{
+    background-color: #f9f9f9;
+
+}
+
+.expertise-item{
+    margin-bottom: 20px;
+}
+
+.expertise-item h3{
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 700;
+}
+
+
+@media(
+    max-width: 600px){
+        .left-col-block{
+            width: 100%;
+            position: relative;
+
+        }
+        .right-col-block{
+            width: 100%;
+            position: relative;
+        }
+    }
+
